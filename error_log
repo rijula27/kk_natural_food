@@ -1,0 +1,51 @@
+[20-Aug-2024 08:56:06 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[20-Aug-2024 14:55:51 UTC] PHP Warning:  Undefined variable $dishImage in /home/fiomerco/kknaturalfood.in/orderPage.php on line 55
+[20-Aug-2024 14:55:51 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 70
+[20-Aug-2024 14:55:51 UTC] PHP Warning:  Undefined variable $dishName in /home/fiomerco/kknaturalfood.in/orderPage.php on line 76
+[20-Aug-2024 14:55:51 UTC] PHP Warning:  Undefined variable $dishDescription in /home/fiomerco/kknaturalfood.in/orderPage.php on line 77
+[20-Aug-2024 14:55:51 UTC] PHP Warning:  Undefined variable $dishName in /home/fiomerco/kknaturalfood.in/orderPage.php on line 294
+[20-Aug-2024 14:55:51 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 295
+[20-Aug-2024 14:55:51 UTC] PHP Warning:  Undefined variable $dishName in /home/fiomerco/kknaturalfood.in/orderPage.php on line 341
+[20-Aug-2024 14:55:51 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 342
+[20-Aug-2024 14:55:51 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 367
+[06-Sep-2024 06:28:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/fiomerco/kknaturalfood.in/dbconnection.php:10
+Stack trace:
+#0 /home/fiomerco/kknaturalfood.in/dbconnection.php(10): mysqli->__construct()
+#1 /home/fiomerco/kknaturalfood.in/index_php.php(4): require('/home/fiomerco/...')
+#2 /home/fiomerco/kknaturalfood.in/index.php(2): require('/home/fiomerco/...')
+#3 {main}
+  thrown in /home/fiomerco/kknaturalfood.in/dbconnection.php on line 10
+[06-Sep-2024 06:28:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/fiomerco/kknaturalfood.in/dbconnection.php:10
+Stack trace:
+#0 /home/fiomerco/kknaturalfood.in/dbconnection.php(10): mysqli->__construct()
+#1 /home/fiomerco/kknaturalfood.in/index_php.php(4): require('/home/fiomerco/...')
+#2 /home/fiomerco/kknaturalfood.in/index.php(2): require('/home/fiomerco/...')
+#3 {main}
+  thrown in /home/fiomerco/kknaturalfood.in/dbconnection.php on line 10
+[08-Sep-2024 05:28:46 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[10-Sep-2024 07:42:21 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[28-Sep-2024 06:48:43 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[28-Sep-2024 06:48:48 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[28-Sep-2024 06:48:48 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[28-Sep-2024 06:48:49 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[28-Sep-2024 06:48:49 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[01-Oct-2024 10:32:48 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[02-Oct-2024 04:10:10 UTC] PHP Warning:  Undefined array key "rating" in /home/fiomerco/kknaturalfood.in/save_feedback_index.php on line 8
+[15-Oct-2024 05:39:28 UTC] PHP Warning:  Undefined variable $dishImage in /home/fiomerco/kknaturalfood.in/orderPage.php on line 55
+[15-Oct-2024 05:39:28 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 70
+[15-Oct-2024 05:39:28 UTC] PHP Warning:  Undefined variable $dishName in /home/fiomerco/kknaturalfood.in/orderPage.php on line 76
+[15-Oct-2024 05:39:28 UTC] PHP Warning:  Undefined variable $dishDescription in /home/fiomerco/kknaturalfood.in/orderPage.php on line 77
+[15-Oct-2024 05:39:28 UTC] PHP Warning:  Undefined variable $dishName in /home/fiomerco/kknaturalfood.in/orderPage.php on line 294
+[15-Oct-2024 05:39:28 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 295
+[15-Oct-2024 05:39:28 UTC] PHP Warning:  Undefined variable $dishName in /home/fiomerco/kknaturalfood.in/orderPage.php on line 341
+[15-Oct-2024 05:39:28 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 342
+[15-Oct-2024 05:39:28 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 367
+[23-Oct-2024 00:01:12 UTC] PHP Warning:  Undefined variable $dishImage in /home/fiomerco/kknaturalfood.in/orderPage.php on line 55
+[23-Oct-2024 00:01:12 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 70
+[23-Oct-2024 00:01:12 UTC] PHP Warning:  Undefined variable $dishName in /home/fiomerco/kknaturalfood.in/orderPage.php on line 76
+[23-Oct-2024 00:01:12 UTC] PHP Warning:  Undefined variable $dishDescription in /home/fiomerco/kknaturalfood.in/orderPage.php on line 77
+[23-Oct-2024 00:01:12 UTC] PHP Warning:  Undefined variable $dishName in /home/fiomerco/kknaturalfood.in/orderPage.php on line 294
+[23-Oct-2024 00:01:12 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 295
+[23-Oct-2024 00:01:12 UTC] PHP Warning:  Undefined variable $dishName in /home/fiomerco/kknaturalfood.in/orderPage.php on line 341
+[23-Oct-2024 00:01:12 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 342
+[23-Oct-2024 00:01:12 UTC] PHP Warning:  Undefined variable $dishPrice in /home/fiomerco/kknaturalfood.in/orderPage.php on line 367

@@ -1,0 +1,279 @@
+@import url(global.css);
+/*@import url(style.css);*/
+
+@media (max-width: 769px){
+    .navbar .name-logo p {
+    font-size: 2rem;
+    margin-top:.1rem;
+    color: var(--white);
+  }
+}
+
+.card-section {
+  /* border: solid; */
+}
+
+
+.card {
+  /* border: solid; */
+  width: 85%;
+  height: 45rem;
+  /*height: fit-content;*/
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card .button-section {
+  /* border: solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  width: 100%;
+  /* height: 1.5rem; */
+  margin-top: 1rem;
+}
+
+.button-section #order-now {
+  width: 24rem;
+  /* height: 1rem; */
+  /* border: solid; */
+}
+
+@media (max-width: 769px) {
+  .button-section #order-now {
+    width: 14rem;
+    /* height: 1rem; */
+    /* border: solid; */
+  }
+}
+
+.button-section a button {
+  width: 100%;
+  height: 3.3rem;
+  background-color: var(--primary-100);
+  border-radius: 7px;
+  border: none;
+  color: var(--white);
+  font-size: 1.7rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.card .button-section .social-logo {
+  /* border: solid; */
+  display: flex;
+  width: 30%;
+  padding: 0;
+  gap: 1rem;
+  /* align-items: end; */
+  justify-content: end;
+}
+
+.card .button-section .social-logo a i {
+  font-size: 3.3rem;
+  color: var(--primary-100);
+  /* margin-right: 0; */
+  transition: ease 0.5ms all;
+}
+
+.button-section a button:active,
+.card .button-section .social-logo a i:active {
+  background-color: var(--primary-200);
+  transform: scale(0.8);
+}
+
+.quantity-price {
+  display: flex;
+  justify-content: space-between;
+  /* border: solid; */
+  position: absolute;
+  transform: translatey(-2.2rem);
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quantity-price div {
+  display: flex;
+  gap: 1rem;
+}
+
+.quantity-price div .total-qty {
+  width: 7rem;
+  background-color: var(--primary-100);
+  border-radius: 7px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  /* height: 3rem; */
+  padding: 0.5rem;
+}
+
+.quantity-price div button {
+  width: 3rem;
+  background-color: var(--primary-100);
+  border-radius: 7px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  /* height: 3rem; */
+  padding: 0.5rem;
+  border: none;
+}
+
+.quantity-price div .quantity-final-price {
+  /* width: 15rem; */
+  background-color: var(--primary-100);
+  border-radius: 7px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  /* height: 3rem; */
+  padding: 0.5rem;
+}
+
+.card .card-heading {
+  font-size: 3.5rem;
+  margin-top: 1rem;
+  font-weight: 900;
+  padding: 0;
+  padding-left: 0.3em; /* Add ellipsis (...) at the end of the text */
+  overflow: hidden; /* Hide the overflow */
+  display: -webkit-box; /* Use for multiline ellipsis */
+  -webkit-line-clamp: 1; /* Display up to 5 lines */
+  -webkit-box-orient: vertical; /* Set box orientation to vertical */
+  line-height: 1; /* Adjust the line height as needed */
+  max-height: calc(3.5em * 1); /* Control the height for 5 lines */
+}
+
+.card .item-description {
+  font-size: 1.5rem;
+  /* border: solid; */
+  height: 11rem;
+  padding-left: 1rem;
+  overflow: hidden; /* Hide the overflow */
+  display: -webkit-box; /* Use for multiline ellipsis */
+  -webkit-line-clamp: 7; /* Display up to 5 lines */
+  -webkit-box-orient: vertical; /* Set box orientation to vertical */
+  line-height: 1; /* Adjust the line height as needed */
+  max-height: calc(1.5em * 7); /* Control the height for 5 lines */
+}
+
+.advertise {
+  display: flex;
+  /* border: solid; */
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  padding-left: 0;
+}
+
+.advertise img {
+  width: 3.5rem;
+}
+
+.advertise .punchline {
+  /* border: solid; */
+  width: fit-content;
+  font-size: 1rem;
+}
+
+.qr-popup {
+  /* border: solid; */
+  position: absolute;
+  top: 7rem;
+  width: 80%;
+  height: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: black;
+  z-index: 7;
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: "kalpurush";
+  display: none;
+  animation: popup 1s ease;
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.qr-popup p {
+  font-size: 1.5rem;
+}
+
+.qr-popup .qr-img {
+  /* border: solid; */
+  width: 17rem;
+  height: 17rem;
+  margin: 1.5rem auto;
+}
+
+.qr-popup .qr-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.qr-popup .cancel {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2.5rem;
+}
+
+.qr-popup .delivery-address {
+  /* border: solid; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 1rem;
+  text-align: left;
+}
+
+.qr-popup .delivery-address p {
+  margin-bottom: 0.5rem;
+}
+
+.qr-popup .delivery-address .delivery-address-details {
+  /* border: solid; */
+  font-size: 1.2rem;
+}
+
+.qr-popup button {
+  padding: 0.8rem;
+  margin: 1rem;
+  background-color: var(--primary-100);
+  color: var(--white);
+  border: none;
+  border-radius: 7px;
+  font-size: 1.5rem111;
+  transition: ease 1s all;
+}
+
+.qr-popup button:active {
+  transform: scale(0.8);
+}
+
+.promotion {
+  /* border: solid; */
+}
+
+.promotion .promotion-name {
+  margin: 1rem;
+}
+
+.promotion .promotion-link {
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.promotion .promotion-social-logo {
+  margin-top: 0.5rem;
+}
